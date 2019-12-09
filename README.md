@@ -5,17 +5,12 @@
 
 ### 9.11
 
-#### 1、`vector<int> v` 此时vector容器中没有元素
-
-#### 2、`vector<int> v(10)` 此时vector容器中有10个`int` 大小的空间但值为零
-
-#### 3、`vector<int> v(5, 2)`此时vector容器中有5个值为2的`int` 类型整数
-
-#### 4、`vector<int> v{1, 2, 3, 4, 5}` 此时vector容器中有1，2， 3， 4， 5五个整数
-
-#### 5、`vector<int> v(vec)` 括号中接受另一个vector容器，将`vec` 容器中的值拷贝到`v` 容器中
-
-#### 6、`vector<int> v(vec.begin(), vec.begin() + 2)` 括号中接受两个同一个容器的两个迭代器，将这两个迭代器范围的元素拷贝到`v` 容器中（区间为左闭右开）
+1. `vector<int> v` 此时vector容器中没有元素
+1. `vector<int> v(10)` 此时vector容器中有10个`int` 大小的空间但值为零
+1. `vector<int> v(5, 2)`此时vector容器中有5个值为2的`int` 类型整数
+1. `vector<int> v{1, 2, 3, 4, 5}` 此时vector容器中有1，2， 3， 4， 5五个整数
+1. `vector<int> v(vec)` 括号中接受另一个vector容器，将`vec` 容器中的值拷贝到`v` 容器中
+1. `vector<int> v(vec.begin(), vec.begin() + 2)` 括号中接受两个同一个容器的两个迭代器，将这两个迭代器范围的元素拷贝到`v` 容器中（区间为左闭右开）
 
 ### 9.25
 
